@@ -1,0 +1,57 @@
+@media only screen and (min-width: 768px) {
+    .nav_bar {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-between;  
+        align-items: center;  
+    }
+
+    .nav_bar li{
+       display: inline-block;   
+        flex-direction: row; 
+        justify-content: flex-end; 
+        padding: 10px; 
+          /* 20px for 1200 */
+    }
+
+    form {
+        display: flex; 
+        justify-content: flex-end; 
+        margin-bottom: 10px;  
+    }
+
+    header {
+        font-size: 78px;
+        margin: 0;  
+        padding: 0;  
+    }
+
+    .dog_month {
+        display: flex; 
+        
+    }
+
+    .dog_month p {
+        align-items: center; 
+        font-size: 25px; 
+        text-align: center; 
+    }
+
+
+    .pitty{
+        display: flex; 
+        justify-content: center;          
+    }
+
+}
+
+@media only screen and (min-width:1200px) {
+
+    .nav_bar li{
+        display: inline-block;   
+         flex-direction: row; 
+         justify-content: flex-end; 
+         padding: 20px; 
+     }
+
+} 
