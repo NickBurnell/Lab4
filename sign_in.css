@@ -1,0 +1,57 @@
+body {
+    background-color: #ddb3b3; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Noto-Serif', serif; 
+    
+}
+
+.account {
+    color: #50a6aa;
+
+}
+
+/*input[type="text"] {
+    margin: 10px 20px;
+}  */
+
+.password {
+    border: 1px solid AAAAAA;
+    color: #AAAAAA;
+    display: block;
+    width: 80%;
+    margin: 30px;
+    padding: 10px;
+}
+
+.username {
+    color: #AAAAAA;
+    display: block;
+    width: 80%;
+    margin: 30px;
+    padding: 10px;
+}
+
+.radio {
+    color: #AAAAAA;
+}
+
+input[type="button"] {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    background-color: #50a6aa;
+    padding: 10px;
+}
+
+form {
+    margin: 0 auto;
+    width: 50%;
+    background-color: #d8bb52;
+    text-align: center;
+    border: 10px #F0F0F0;
+    padding: 50px;
+}
+

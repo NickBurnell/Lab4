@@ -26,8 +26,17 @@
         padding: 0;  
     }
 
+    .friends {
+        width: 550px; 
+        height: 550px; 
+    }
+
     .dog_month {
         display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        margin: 100px; 
         
     }
 
@@ -37,21 +46,176 @@
         text-align: center; 
     }
 
+    .events-container h2 {
+        border-bottom: 1px solid #50a6aa;
+        text-transform: uppercase; 
+    }
 
-    .pitty{
+    .spots{
         display: flex; 
         justify-content: center;          
     }
+
 
 }
 
 @media only screen and (min-width:1200px) {
 
+    .dogs_playing{
+        display: flex; 
+        flex-direction: row; 
+        justify-content: flex-end; 
+        align-items: flex-end; 
+        
+    }
+
+    .playing {
+        display: flex; 
+        justify-content: flex-end; 
+        align-items: flex-end; 
+        width: 100%; 
+        opacity: 1;
+        height: auto;
+        transition: .2s ease;
+        backface-visibility: hidden;
+    }
+
+    .middle {
+        transition: .2s ease;
+        opacity: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+    
+    .dogs_playing:hover .playing {
+        opacity: 0.3;
+      }
+      
+    .dogs_playing:hover .middle {
+        opacity: 1;
+      }
+
+    
+    .text {
+        background-color: #50a6aa;
+        color: white;
+        font-size: 16px;
+        padding: 16px 32px;
+      }
+
+
     .nav_bar li{
         display: inline-block;   
-         flex-direction: row; 
-         justify-content: flex-end; 
-         padding: 20px; 
+        flex-direction: row; 
+        justify-content: flex-end; 
+        padding: 20px; 
      }
+
+     .search_bar {
+         padding-right: 34px; 
+    }
+    
+
+     .form-group {
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        margin: 60px;  
+        
+     }
+
+     .name {
+         font-size: 78pt; 
+     }
+
+     .bff {
+         flex-direction: column; 
+     }
+
+     h4 {
+         display: none; 
+     }
+
+    .nav_bar h1 {
+        padding-left: 50px; 
+        font-size: 64px; 
+    }
+
+
+
+     .join_us {
+        display: flex; 
+        flex-direction: column;  
+        justify-content: flex-start; 
+        align-items: center; 
+        margin: 60px; 
+    }
+
+    
+    .join_us p {
+        align-items: center; 
+        font-size: 25px; 
+        text-align: center;  
+    }
+
+    .join_us h1 {
+        justify-content: flex-end; 
+        padding: 20px; 
+
+    }
+
+    .dog_month {
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        margin: 100px; 
+    }
+
+    .dog_month h1 {
+        color: #1d609c; 
+        padding: 20px; 
+    }
+
+
+    .events-container {
+        display: flex; 
+        flex-direction: column;  
+        justify-content: center; 
+        align-items: center; 
+        margin: 60px; 
+        background-color: #50a6aa;  
+    }
+
+    .events-container h1 {
+        color: #1d609c;
+        padding: 20px; 
+    }
+
+    .events-container h2 {
+        border-bottom: 1px solid #50a6aa;
+        text-transform: uppercase; 
+    }
+
+    .events_container p {
+        color: #000; 
+        text-align: center; 
+    }
+
+    .events {
+       text-align: center;
+       border-radius: 250px;   
+    }
+
+    .spots{
+        border-radius: 250px; 
+    }
+
 
 } 
