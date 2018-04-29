@@ -1,9 +1,14 @@
 @media only screen and (min-width: 768px) {
+
     .nav_bar {
         display: flex; 
         flex-direction: row; 
         justify-content: space-between;  
         align-items: center;  
+    }
+
+    #bff  {
+        display: none; 
     }
 
     .nav_bar li{
@@ -13,6 +18,7 @@
         padding: 10px; 
           /* 20px for 1200 */
     }
+
 
     form {
         display: flex; 
@@ -25,6 +31,8 @@
         margin: 0;  
         padding: 0;  
     }
+
+
 
     .friends {
         width: 550px; 
@@ -134,13 +142,10 @@
          font-size: 78pt; 
      }
 
-     .bff {
-         flex-direction: column; 
-     }
 
-     h4 {
+    h4 {
          display: none; 
-     }
+     } 
 
     .nav_bar h1 {
         padding-left: 50px; 

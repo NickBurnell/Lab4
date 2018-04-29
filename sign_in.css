@@ -1,5 +1,5 @@
 body {
-    background-color: #ddb3b3; 
+    background-color:#ddb3b3 ; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -9,7 +9,7 @@ body {
 }
 
 .account {
-    color: #50a6aa;
+    color: #1d609c;
 
 }
 
@@ -49,9 +49,13 @@ input[type="button"] {
 form {
     margin: 0 auto;
     width: 50%;
-    background-color: #d8bb52;
+    background-color:#d8bb52;
     text-align: center;
     border: 10px #F0F0F0;
     padding: 50px;
 }
 
+a {
+    text-decoration: none; 
+    color: #1d609c; 
+}

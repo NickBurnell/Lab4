@@ -138,6 +138,7 @@ li {
 
 footer {
     background-color: #d8bb52; 
+    color: #50a6aa; 
 }
 
 footer ul {
@@ -147,6 +148,7 @@ footer ul {
     align-items: center; 
     width: 100%;
     padding: 10px; 
+    margin: 5px; 
 }
 
 a:link {
